@@ -49,7 +49,7 @@ int main() {
         cout << n << " is not a prime number\n";
     }
 
-
+    cout << "Vishal";
     printPrime_toN(n); // Prints all prime numbers from 2 to n
 
     return 0;
