@@ -37,7 +37,6 @@ void printNthFibonacci(int n) {
 
     return;
 }
-//my comment
 
 int main() {
     int n;
