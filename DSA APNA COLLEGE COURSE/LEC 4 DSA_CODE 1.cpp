@@ -5,11 +5,11 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter number for rows of square pattern: -\n";
+    cout << "Enter number for rows of number pattern: -\n";
     cin >> n;
 
     int m;
-    cout << "Enter number for columns of square pattern: -\n";
+    cout << "Enter number for columns of number pattern: -\n";
     cin >> m;
 
     for (int i=0; i<=(n-1); i++) {

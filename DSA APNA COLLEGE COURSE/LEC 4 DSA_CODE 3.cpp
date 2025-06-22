@@ -5,11 +5,11 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter number of rows for ABCD square pattern: -\n";
+    cout << "Enter number of rows for ABCD pattern: -\n";
     cin >> n;
 
     int m;
-    cout << "Enter number of columns for ABCD square pattern: -\n";
+    cout << "Enter number of columns for ABCD pattern: -\n";
     cin >> m;
 
     for (int i=0; i<=(n-1); i++) {

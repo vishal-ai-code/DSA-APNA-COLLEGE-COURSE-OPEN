@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter number for continuous square pattern: -\n";
+    cout << "Enter number for continuous square number pattern: -\n";
     cin >> n;
 
     int count = 1;
