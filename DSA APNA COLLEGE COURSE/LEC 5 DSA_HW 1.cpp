@@ -31,9 +31,23 @@ void printPrime_toN(int n) {
 
     }
 
+    cout << "\n";
+
     return;
 }
 void printNthFibonacci(int n) {
+    int a = 0;
+    int b = 1;
+    int c;
+
+    for (int i=0; i<=n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+        // cout << c << " "; [To print the whole series]
+    }
+
+    cout << "The " << n << "th fibonacci number in the fibonacci series is: " << c << "\n";
 
     return;
 }
@@ -50,6 +64,8 @@ int main() {
     }
 
     printPrime_toN(n); // Prints all prime numbers from 2 to n
+
+    printNthFibonacci(n); // Prints the nth fibonacci number in the series
 
     return 0;
 }
