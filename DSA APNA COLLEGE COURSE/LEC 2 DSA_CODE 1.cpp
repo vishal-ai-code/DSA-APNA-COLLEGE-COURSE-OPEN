@@ -1,4 +1,5 @@
-// DAY 1 DSA // C++
+// LEC 2 DSA_10-06-2025_INTRO BASIC FUNCTIONS
+
 #include <iostream>
 using namespace std;
 

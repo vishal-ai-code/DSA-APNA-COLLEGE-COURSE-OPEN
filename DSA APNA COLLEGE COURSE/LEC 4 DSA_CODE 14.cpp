@@ -1,3 +1,5 @@
+//LEC 4 DSA_16-06-2025_NESTED LOOPS INVERTED RIGHT-ANGLED TRIANGLE ABCD PATTERN
+
 #include <iostream>
 using namespace std;
 

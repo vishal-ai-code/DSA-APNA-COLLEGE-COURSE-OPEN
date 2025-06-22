@@ -1,3 +1,5 @@
+//LEC 4 DSA_16-06-2025_NESTED LOOPS PYRAMID NUMBER PATTERN
+
 # include <iostream>
 using namespace std;
 
