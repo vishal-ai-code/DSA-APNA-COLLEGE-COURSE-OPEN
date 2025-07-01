@@ -1,4 +1,4 @@
-//LEC 5 DSA_22-06-2025_FUNCTIONS HOMEWORK
+//LEC 5 DSA_HOMEWORK_22-06-2025_FUNCTIONS HOMEWORK
 
 # include <iostream>
 using namespace std;
