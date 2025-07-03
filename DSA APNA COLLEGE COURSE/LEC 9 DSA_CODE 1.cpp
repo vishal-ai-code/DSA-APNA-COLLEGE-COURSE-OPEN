@@ -1,4 +1,4 @@
-//LEC 9 DSA_02-07-2025_VECTORS
+//LEC 9 DSA_02-07-2025_VECTORS SYNTAX AND BASIC FUNCTONS
 
 #include <iostream>
 #include <vector>
@@ -46,11 +46,17 @@ int main() {
         cout << val << endl;
     }
 
+    // Accessing elements of vector usinf basic funtions
+    cout << vec.front() << endl;
+    cout << vec.back() << endl;
+    cout << vec.at(1) << endl;
+    cout << vec.size() << endl;
 
-
-
-
-
+    // Not yet learnt
+    // cout << vec.empty() << endl;
+    // cout << vec.capacity() << endl;
+    // cout << vec.max_size() << endl;
+    // cout << vec.data() << endl;
 
     return 0;
 }
