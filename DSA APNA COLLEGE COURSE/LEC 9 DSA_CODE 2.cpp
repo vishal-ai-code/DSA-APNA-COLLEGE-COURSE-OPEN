@@ -35,6 +35,7 @@ int singleNumber(vector<int> &vec) {
         }
 
         if (count == 0) {
+            // Can also use logical OR for [count == 0 || count > 1]
             // There is no 0 in the vector and there exist no unique element
             cout << "There is no unique element\n";
             return -1;
@@ -55,7 +56,7 @@ int singleNumber(vector<int> &vec) {
 
 int main() {
     // Given Vector
-    vector<int> vec = {4,1,2,1,2,4,0,0};
+    vector<int> vec = {4,1,2,1,2};
 
     // Caling the funtion to find/cheak unique value in the vector
     cout << "Unique element of the vecotor :- " << singleNumber(vec);
