@@ -5,7 +5,7 @@
 using namespace std;
 
 // Function to print the number in the vector which does not repeat, it appears only once
-int singleNumber(vector<int> &vec) {
+int singleNumber(vector<int> vec) { // Pass by value
     // initializing ans = 0
     int ans = 0;
 
