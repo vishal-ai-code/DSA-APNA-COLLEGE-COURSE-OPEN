@@ -4,7 +4,7 @@
 # include <vector>
 using namespace std;
 
-int BruteForce_MSAS(vector<int> vec) {
+int BruteForce_MSAS(vector<int> &vec) {
     int maxSum = INT_MIN;
 
     for (int st=0; st<vec.size(); st++) {
@@ -30,7 +30,7 @@ int BruteForce_MSAS(vector<int> vec) {
 
     return maxSum;
 }
-int KadanesAlgorithm_MSAS(vector<int> vec) {
+int KadanesAlgorithm_MSAS(vector<int> &vec) {
     int currSum = 0;
     int maxSum = INT_MIN;
 
@@ -50,9 +50,10 @@ int KadanesAlgorithm_MSAS(vector<int> vec) {
 int main() {
     vector<int> vec = {3,-4,5,4,-1,7,-8};
     vector<int> vec2 = {1,2,3,4,5,6};
+    vector<int> vec3 = {6,2,-10,9};
 
     cout << "Max subarray sum = " << BruteForce_MSAS(vec) << endl;
-    cout << "Max subarray sum = " << KadanesAlgorithm_MSAS(vec) << endl;
+    cout << "Max subarray sum = " << KadanesAlgorithm_MSAS(vec3) << endl;
 
     return 0;
 }
