@@ -61,5 +61,5 @@ int main() {
 
     // cout << "Value of vector pair : " << vec1[ans[0]] << " and " << vec1[ans[1]] << "\n";
 
-    return 0;
+    return 1;
 }
